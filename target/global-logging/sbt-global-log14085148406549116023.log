@@ -1,0 +1,96 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.4 (Oracle Corporation Java 14.0.1)
+[debug]       Load.loadUnit: plugins took 134.005064ms
+[debug]       Load.loadUnit: defsScala took 0.307363ms
+[debug] [Loading] Scanning directory /Users/nursatsaduahasov/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/nursatsaduahasov/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 28.972007 ms
+[debug]           Load.resolveProject(global-plugins) took 55.7103ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/nursatsaduahasov/.sbt/1.0/plugins, plugins: List(<none>))) took 117.46131ms
+[debug] [Loading] Done in /Users/nursatsaduahasov/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 152.517777ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.313587ms
+[debug]     Load.loadUnit(file:/Users/nursatsaduahasov/.sbt/1.0/plugins/, ...) took 297.492664ms
+[debug]   Load.apply: load took 1012.114742ms
+[debug]   Load.apply: resolveProjects took 8.058966ms
+[debug]   Load.apply: finalTransforms took 68.63341ms
+[debug]   Load.apply: config.delegates took 6.699937ms
+[debug]   Load.apply: Def.make(settings)... took 443.737403ms
+[debug]   Load.apply: structureIndex took 110.863692ms
+[debug]   Load.apply: mkStreams took 1.206445ms
+[info] loading global plugins from /Users/nursatsaduahasov/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3213.514345ms
+[debug]           Load.loadUnit: plugins took 19.98186ms
+[debug]           Load.loadUnit: defsScala took 0.009625ms
+[debug] [Loading] Scanning directory /Users/nursatsaduahasov/Documents/Highloaded/Final/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/nursatsaduahasov/Documents/Highloaded/Final/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.400962 ms
+[debug]               Load.resolveProject(final-build) took 1.160543ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id final-build, base: /Users/nursatsaduahasov/Documents/Highloaded/Final/project, plugins: List(<none>))) took 4.293934ms
+[debug] [Loading] Done in /Users/nursatsaduahasov/Documents/Highloaded/Final/project, returning: (final-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 7.512765ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.019713ms
+[debug]         Load.loadUnit(file:/Users/nursatsaduahasov/Documents/Highloaded/Final/project/, ...) took 28.24562ms
+[debug]       Load.apply: load took 30.275577ms
+[debug]       Load.apply: resolveProjects took 0.12294ms
+[debug]       Load.apply: finalTransforms took 13.938293ms
+[debug]       Load.apply: config.delegates took 0.503996ms
+[debug]       Load.apply: Def.make(settings)... took 107.768658ms
+[debug]       Load.apply: structureIndex took 35.695555ms
+[debug]       Load.apply: mkStreams took 0.003464ms
+[info] loading project definition from /Users/nursatsaduahasov/Documents/Highloaded/Final/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 485.538457ms
+[debug]     Load.loadUnit: defsScala took 0.004449ms
+[debug] [Loading] Scanning directory /Users/nursatsaduahasov/Documents/Highloaded/Final
+[debug]       Load.loadUnit: mkEval took 5.890006ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/nursatsaduahasov/Documents/Highloaded/Final, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.700172 ms
+[info] loading settings for project final from build.sbt ...
+[debug]         Load.resolveProject(final) took 2.058904ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id final, base: /Users/nursatsaduahasov/Documents/Highloaded/Final, plugins: List(<none>))) took 4.263614ms
+[debug] [Loading] Done in /Users/nursatsaduahasov/Documents/Highloaded/Final, returning: (final)
+[debug]     Load.loadUnit: loadedProjectsRaw took 127.531603ms
+[debug]     Load.loadUnit: cleanEvalClasses took 4.389141ms
+[debug]   Load.loadUnit(file:/Users/nursatsaduahasov/Documents/Highloaded/Final/, ...) took 618.402527ms
+[debug] Load.apply: load took 619.760698ms
+[debug] Load.apply: resolveProjects took 0.185833ms
+[debug] Load.apply: finalTransforms took 9.198905ms
+[debug] Load.apply: config.delegates took 0.271637ms
+[debug] Load.apply: Def.make(settings)... took 104.639457ms
+[debug] Load.apply: structureIndex took 26.490052ms
+[debug] Load.apply: mkStreams took 0.003172ms
+[info] set current project to Final (in build file:/Users/nursatsaduahasov/Documents/Highloaded/Final/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes ...
+[warn] /Users/nursatsaduahasov/Documents/Highloaded/Final/src/main/scala/HistoryService.scala:37:52: match may not be exhaustive.
+[warn] It would fail on the following input: Failure(_)
+[warn]     control.flatMap(_.drainAndShutdown().onComplete{
+[warn]                                                    ^
+[warn] one warning found
+[info] done compiling

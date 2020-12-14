@@ -1,0 +1,99 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 15 products, 3 sources, 8 libraries
+[debug] current source = Set(${BASE}/src/main/scala/HistoryService.scala, ${BASE}/src/main/scala/Main.scala, ${BASE}/src/main/scala/Node.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/HistoryService.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/HistoryService.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/HistoryService.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/HistoryService.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(History, Calc, HistoryService)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/HistoryService.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(History, Calc, HistoryService)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/HistoryService.scala)
+[debug] Initial set of included nodes: History, Calc, HistoryService
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.4.3:compile for Scala 2.13.4
+[debug] [zinc] Running cached compiler 9040c51 for Scala compiler version 2.13.4
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar
+[debug] 	-classpath
+[debug] 	/Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.10/akka-stream_2.13-2.6.10.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.2.1/akka-http_2.13-10.2.1.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.10/akka-actor-typed_2.13-2.6.10.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream-kafka_2.13/2.0.5/akka-stream-kafka_2.13-2.0.5.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_2.13/0.13.0/circe-generic_2.13-0.13.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_2.13/0.13.0/circe-parser_2.13-0.13.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/de/heikoseeberger/akka-http-circe_2.13/1.31.0/akka-http-circe_2.13-1.31.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.10/akka-actor_2.13-2.6.10.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.10/akka-protobuf-v3_2.13-2.6.10.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.2.1/akka-http-core_2.13-10.2.1.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.10/akka-slf4j_2.13-2.6.10.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.1.6/scala-collection-compat_2.13-2.1.6.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.13/0.13.0/circe-numbers_2.13-0.13.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.1.0/cats-core_2.13-2.1.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.3/shapeless_2.13-2.3.3.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_2.13/0.13.0/circe-jawn_2.13-0.13.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.2.1/akka-parsing_2.13-10.2.1.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.4.3-1/zstd-jni-1.4.3-1.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.1.0/cats-macros_2.13-2.1.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.1.0/cats-kernel_2.13-2.1.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.0.0/jawn-parser_2.13-1.0.0.jar
+[debug] Invalidating (transitively) by inheritance from History...
+[debug] Initial set of included nodes: History
+[debug] Invalidated by transitive inheritance dependency: Set(History)
+[debug] None of the modified names appears in source file of Node.GetHistory. This dependency is not being considered for invalidation.
+[debug] None of the modified names appears in source file of Node. This dependency is not being considered for invalidation.
+[debug] None of the modified names appears in source file of Main. This dependency is not being considered for invalidation.
+[debug] Change NamesChange(History,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The History has the following regular definitions changed:
+[debug] 	UsedName(finalize,[Default]).
+[debug]   > by transitive inheritance: Set(History)
+[debug]   > 
+[debug]   > 
+[debug]         
+[debug] Invalidating (transitively) by inheritance from Calc...
+[debug] Initial set of included nodes: Calc
+[debug] Invalidated by transitive inheritance dependency: Set(Calc)
+[debug] Change NamesChange(Calc,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The Calc has the following regular definitions changed:
+[debug] 	UsedName(finalize,[Default]).
+[debug]   > by transitive inheritance: Set(Calc)
+[debug]   > 
+[debug]   > 
+[debug]         
+[debug] Invalidating (transitively) by inheritance from HistoryService...
+[debug] Initial set of included nodes: HistoryService
+[debug] Invalidated by transitive inheritance dependency: Set(HistoryService)
+[debug] The following modified names cause invalidation of Node: Set(UsedName(control,[Default]))
+[debug] Change NamesChange(HistoryService,ModifiedNames(changes = UsedName(control,[Default]))) invalidates 2 classes due to The HistoryService has the following regular definitions changed:
+[debug] 	UsedName(control,[Default]).
+[debug]   > by transitive inheritance: Set(HistoryService)
+[debug]   > 
+[debug]   > by member reference: Set(Node)
+[debug]         
+[debug] New invalidations:
+[debug] 	Node
+[debug] Initial set of included nodes: Node
+[debug] Including Main by Node
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set(Node)
+[debug] Invalidated classes: Node
+[debug] Scala compilation took 3.400272639 s
+[info] done compiling
+[debug] Initial set of included nodes: Node
+[debug] compilation cycle 2
+[info] compiling 1 Scala source to /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.4.3:compile for Scala 2.13.4
+[debug] [zinc] Running cached compiler 7dcb7fc1 for Scala compiler version 2.13.4
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar
+[debug] 	-classpath
+[debug] 	/Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.10/akka-stream_2.13-2.6.10.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.2.1/akka-http_2.13-10.2.1.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.10/akka-actor-typed_2.13-2.6.10.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream-kafka_2.13/2.0.5/akka-stream-kafka_2.13-2.0.5.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_2.13/0.13.0/circe-core_2.13-0.13.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_2.13/0.13.0/circe-generic_2.13-0.13.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_2.13/0.13.0/circe-parser_2.13-0.13.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/de/heikoseeberger/akka-http-circe_2.13/1.31.0/akka-http-circe_2.13-1.31.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.10/akka-actor_2.13-2.6.10.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.10/akka-protobuf-v3_2.13-2.6.10.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.2/ssl-config-core_2.13-0.4.2.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.2.1/akka-http-core_2.13-10.2.1.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.10/akka-slf4j_2.13-2.6.10.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/kafka/kafka-clients/2.4.1/kafka-clients-2.4.1.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.1.6/scala-collection-compat_2.13-2.1.6.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.13/0.13.0/circe-numbers_2.13-0.13.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.1.0/cats-core_2.13-2.1.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.3/shapeless_2.13-2.3.3.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_2.13/0.13.0/circe-jawn_2.13-0.13.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.2.1/akka-parsing_2.13-10.2.1.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.4.3-1/zstd-jni-1.4.3-1.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-macros_2.13/2.1.0/cats-macros_2.13-2.1.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.1.0/cats-kernel_2.13-2.1.0.jar:/Users/nursatsaduahasov/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.0.0/jawn-parser_2.13-1.0.0.jar
+[debug] Invalidating (transitively) by inheritance from Node...
+[debug] Initial set of included nodes: Node
+[debug] Invalidated by transitive inheritance dependency: Set(Node)
+[debug] None of the modified names appears in source file of Main. This dependency is not being considered for invalidation.
+[debug] Change NamesChange(Node,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The Node has the following regular definitions changed:
+[debug] 	UsedName(finalize,[Default]).
+[debug]   > by transitive inheritance: Set(Node)
+[debug]   > 
+[debug]   > 
+[debug]         
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] No classes were invalidated.
+[debug] Scala compilation took 0.777461334 s
+[info] done compiling

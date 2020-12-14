@@ -1,0 +1,44 @@
+[debug] Created transactional ClassFileManager with tempDir = /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes.bak
+[debug] About to delete class files:
+[debug] 	Calc.class
+[debug] 	HistoryService.class
+[debug] 	Calc$.class
+[debug] 	History$.class
+[debug] 	History.class
+[debug] We backup class files:
+[debug] 	Calc.class
+[debug] 	HistoryService.class
+[debug] 	Calc$.class
+[debug] 	History$.class
+[debug] 	History.class
+[debug] Registering generated classes:
+[debug] 	Calc.class
+[debug] 	HistoryService.class
+[debug] 	Calc$.class
+[debug] 	History$.class
+[debug] 	History.class
+[debug] About to delete class files:
+[debug] 	Node$Command.class
+[debug] 	Node.class
+[debug] 	Node$GetHistory$.class
+[debug] 	Node$Calculate$.class
+[debug] 	Node$.class
+[debug] 	Node$GetHistory.class
+[debug] 	Node$Calculate.class
+[debug] We backup class files:
+[debug] 	Node$Command.class
+[debug] 	Node.class
+[debug] 	Node$GetHistory$.class
+[debug] 	Node$Calculate$.class
+[debug] 	Node$.class
+[debug] 	Node$GetHistory.class
+[debug] 	Node$Calculate.class
+[debug] Registering generated classes:
+[debug] 	Node$Command.class
+[debug] 	Node.class
+[debug] 	Node$GetHistory$.class
+[debug] 	Node$Calculate$.class
+[debug] 	Node$.class
+[debug] 	Node$GetHistory.class
+[debug] 	Node$Calculate.class
+[debug] Removing the temporary directory used for backing up class files: /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes.bak

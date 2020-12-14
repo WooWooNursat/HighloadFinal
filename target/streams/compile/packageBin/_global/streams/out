@@ -1,0 +1,35 @@
+[debug] Packaging /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/final_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Node$.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/Node$.class
+[debug] 	Node$Calculate.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/Node$Calculate.class
+[debug] 	Main$.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/Main$.class
+[debug] 	Node$GetHistory.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/Node$GetHistory.class
+[debug] 	Node$Command.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/Node$Command.class
+[debug] 	Calc.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/Calc.class
+[debug] 	application.conf
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/application.conf
+[debug] 	Node$Calculate$.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/Node$Calculate$.class
+[debug] 	Calc$.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/Calc$.class
+[debug] 	History.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/History.class
+[debug] 	Node$GetHistory$.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/Node$GetHistory$.class
+[debug] 	Main.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/Main.class
+[debug] 	History$.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/History$.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/Main$delayedInit$body.class
+[debug] 	HistoryService.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/HistoryService.class
+[debug] 	Node.class
+[debug] 	  /Users/nursatsaduahasov/Documents/Highloaded/Final/target/scala-2.13/classes/Node.class
+[debug] Done packaging.

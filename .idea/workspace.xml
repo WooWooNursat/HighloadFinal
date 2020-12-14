@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40506a66-b9a2-4b99-8083-9c95f6a9a6d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Calculator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/CalculatorService.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Expression.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/HistoryService2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Node.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/NodeRouter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Server.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week10(Backend)/src/main/scala/NumberGenerator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Week10(Backend)/src/main/scala/NumberGenerator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week10(Backend)/src/main/scala/RecordStorage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Week10(Backend)/src/main/scala/RecordStorage.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week11/LabTask/src/main/scala/kz/kbtu/api/NodeRouter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Week11/LabTask/src/main/scala/kz/kbtu/api/NodeRouter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week12/src/main/scala/ShoppingCart.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Week12/src/main/scala/ShoppingCart.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week12/src/main/scala/User.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Week12/src/main/scala/User.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week12/src/test/scala/CartSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Week12/src/test/scala/CartSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Week9/src/main/scala/HttpServerSample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Week9/src/main/scala/HttpServerSample.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1lTOZL1D8517iCw3P0QmOlxvHnz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Calculator" />
+      <module name="Final" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Final" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Final" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="SbtRunConfiguration" factoryName="sbt Task" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <option name="tasks" value="run" />
+      <option name="useSbtShell" value="false" />
+      <option name="vmparams" value="-Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled -Dconfig.resources=application.conf" />
+      <option name="workingDir" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="sbt Task.Run" />
+      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Calculator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40506a66-b9a2-4b99-8083-9c95f6a9a6d2" name="Default Changelist" comment="" />
+      <created>1607617671339</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607617671339</updated>
+      <workItem from="1607617673014" duration="713000" />
+      <workItem from="1607714647321" duration="31355000" />
+      <workItem from="1607866273165" duration="34986000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="208" y="25" key="#Project_Structure" timestamp="1607755782630">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="208" y="25" key="#Project_Structure/0.25.1440.805@0.25.1440.805" timestamp="1607755782630" />
+    <state x="458" y="188" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1607976623027">
+      <screen x="0" y="25" width="1440" height="813" />
+    </state>
+    <state x="458" y="186" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.1440.805@0.25.1440.805" timestamp="1607758027709" />
+    <state x="458" y="187" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.1440.808@0.25.1440.808" timestamp="1607968574525" />
+    <state x="458" y="188" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.1440.813@0.25.1440.813" timestamp="1607976623027" />
+    <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607764786077">
+      <screen x="0" y="25" width="1440" height="808" />
+    </state>
+    <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.805@0.25.1440.805" timestamp="1607758637394" />
+    <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.808@0.25.1440.808" timestamp="1607764786077" />
+    <state x="336" y="120" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1607714936603">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="336" y="120" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.25.1440.805@0.25.1440.805" timestamp="1607714936603" />
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom" timestamp="1607976865214">
+      <screen x="0" y="25" width="1440" height="813" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.0.bottom/0.25.1440.806@0.25.1440.806" timestamp="1607797080703" />
+    <state width="1398" height="391" key="GridCell.Tab.0.bottom/0.25.1440.808@0.25.1440.808" timestamp="1607972433508" />
+    <state width="1398" height="634" key="GridCell.Tab.0.bottom/0.25.1440.810@0.25.1440.810" timestamp="1607942470493" />
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1607976865214" />
+    <state width="1398" height="135" key="GridCell.Tab.0.center" timestamp="1607976865214">
+      <screen x="0" y="25" width="1440" height="813" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.0.center/0.25.1440.806@0.25.1440.806" timestamp="1607797080702" />
+    <state width="1398" height="391" key="GridCell.Tab.0.center/0.25.1440.808@0.25.1440.808" timestamp="1607972433508" />
+    <state width="1398" height="634" key="GridCell.Tab.0.center/0.25.1440.810@0.25.1440.810" timestamp="1607942470492" />
+    <state width="1398" height="135" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1607976865214" />
+    <state width="1398" height="135" key="GridCell.Tab.0.left" timestamp="1607976865213">
+      <screen x="0" y="25" width="1440" height="813" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.0.left/0.25.1440.806@0.25.1440.806" timestamp="1607797080702" />
+    <state width="1398" height="391" key="GridCell.Tab.0.left/0.25.1440.808@0.25.1440.808" timestamp="1607972433507" />
+    <state width="1398" height="634" key="GridCell.Tab.0.left/0.25.1440.810@0.25.1440.810" timestamp="1607942470491" />
+    <state width="1398" height="135" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1607976865213" />
+    <state width="1398" height="135" key="GridCell.Tab.0.right" timestamp="1607976865214">
+      <screen x="0" y="25" width="1440" height="813" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.0.right/0.25.1440.806@0.25.1440.806" timestamp="1607797080703" />
+    <state width="1398" height="391" key="GridCell.Tab.0.right/0.25.1440.808@0.25.1440.808" timestamp="1607972433508" />
+    <state width="1398" height="634" key="GridCell.Tab.0.right/0.25.1440.810@0.25.1440.810" timestamp="1607942470493" />
+    <state width="1398" height="135" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1607976865214" />
+    <state width="1398" height="254" key="GridCell.Tab.1.bottom" timestamp="1607797080704">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.1.bottom/0.25.1440.806@0.25.1440.806" timestamp="1607797080704" />
+    <state width="1398" height="254" key="GridCell.Tab.1.bottom/0.25.1440.808@0.25.1440.808" timestamp="1607773098197" />
+    <state width="1398" height="254" key="GridCell.Tab.1.center" timestamp="1607797080704">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.1.center/0.25.1440.806@0.25.1440.806" timestamp="1607797080704" />
+    <state width="1398" height="254" key="GridCell.Tab.1.center/0.25.1440.808@0.25.1440.808" timestamp="1607773098196" />
+    <state width="1398" height="254" key="GridCell.Tab.1.left" timestamp="1607797080703">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.1.left/0.25.1440.806@0.25.1440.806" timestamp="1607797080703" />
+    <state width="1398" height="254" key="GridCell.Tab.1.left/0.25.1440.808@0.25.1440.808" timestamp="1607773098195" />
+    <state width="1398" height="254" key="GridCell.Tab.1.right" timestamp="1607797080704">
+      <screen x="0" y="25" width="1440" height="806" />
+    </state>
+    <state width="1398" height="254" key="GridCell.Tab.1.right/0.25.1440.806@0.25.1440.806" timestamp="1607797080704" />
+    <state width="1398" height="254" key="GridCell.Tab.1.right/0.25.1440.808@0.25.1440.808" timestamp="1607773098197" />
+  </component>
+</project>

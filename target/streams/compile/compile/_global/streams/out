@@ -1,0 +1,5 @@
+[warn] /Users/nursatsaduahasov/Documents/Highloaded/Final/src/main/scala/Node.scala:33:64: match may not be exhaustive.
+[warn] It would fail on the following input: Failure(_)
+[warn]           historyService.control.drainAndShutdown().onComplete {
+[warn]                                                                ^
+[warn] one warning found
