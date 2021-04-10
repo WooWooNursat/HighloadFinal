@@ -10,7 +10,7 @@ object Main extends App{
     implicit val system = context.system
     implicit val ex = context.executionContext
     implicit val scheduler = system.scheduler
-    implicit val timeout = Timeout(3.seconds)
+    implicit val timeout = Timeout(5.seconds)
 
     val node = context.spawnAnonymous(Node())
     val router = new NodeRouter(node)(system, ex)

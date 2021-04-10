@@ -23,23 +23,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40506a66-b9a2-4b99-8083-9c95f6a9a6d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Calculator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/CalculatorService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Expression.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/HistoryService2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Node.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/NodeRouter.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Server.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week10(Backend)/src/main/scala/NumberGenerator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Week10(Backend)/src/main/scala/NumberGenerator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week10(Backend)/src/main/scala/RecordStorage.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Week10(Backend)/src/main/scala/RecordStorage.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week11/LabTask/src/main/scala/kz/kbtu/api/NodeRouter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Week11/LabTask/src/main/scala/kz/kbtu/api/NodeRouter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week12/src/main/scala/ShoppingCart.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Week12/src/main/scala/ShoppingCart.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week12/src/main/scala/User.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Week12/src/main/scala/User.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week12/src/test/scala/CartSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Week12/src/test/scala/CartSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Week9/src/main/scala/HttpServerSample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Week9/src/main/scala/HttpServerSample.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Final.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1ab2eb8219f7d3b5129e$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1ab2eb8219f7d3b5129e.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$1ab2eb8219f7d3b5129e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4ef6e0acf7dbf53974e7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4ef6e0acf7dbf53974e7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4ef6e0acf7dbf53974e7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6759a67f88994a22c0cb$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6759a67f88994a22c0cb.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6759a67f88994a22c0cb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$970019ce847ef16fe347$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$970019ce847ef16fe347.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$970019ce847ef16fe347.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$970a35e114deaccb5d29$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$970a35e114deaccb5d29.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$970a35e114deaccb5d29.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f83df7273eeeb1b52c9c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f83df7273eeeb1b52c9c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f83df7273eeeb1b52c9c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Calculator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Calculator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Node.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Node.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +77,7 @@
     </projectState>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -70,10 +92,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -106,15 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,9 +155,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="sbt Task.Run" />
       <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="sbt Task.Run" />
     </list>
     <recent_temporary>
       <list>
@@ -157,6 +178,7 @@
       <workItem from="1607617673014" duration="713000" />
       <workItem from="1607714647321" duration="31355000" />
       <workItem from="1607866273165" duration="34986000" />
+      <workItem from="1608008501695" duration="11056000" />
     </task>
     <servers />
   </component>
@@ -175,16 +197,22 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="208" y="25" key="#Project_Structure" timestamp="1607755782630">
       <screen x="0" y="25" width="1440" height="805" />
     </state>
     <state x="208" y="25" key="#Project_Structure/0.25.1440.805@0.25.1440.805" timestamp="1607755782630" />
-    <state x="458" y="188" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1607976623027">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state x="458" y="187" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1608014642119">
+      <screen x="0" y="25" width="1440" height="810" />
     </state>
     <state x="458" y="186" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.1440.805@0.25.1440.805" timestamp="1607758027709" />
     <state x="458" y="187" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.1440.808@0.25.1440.808" timestamp="1607968574525" />
+    <state x="458" y="187" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.1440.810@0.25.1440.810" timestamp="1608014642119" />
     <state x="458" y="188" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.1440.813@0.25.1440.813" timestamp="1607976623027" />
     <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607764786077">
       <screen x="0" y="25" width="1440" height="808" />
@@ -195,34 +223,38 @@
       <screen x="0" y="25" width="1440" height="805" />
     </state>
     <state x="336" y="120" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.25.1440.805@0.25.1440.805" timestamp="1607714936603" />
-    <state width="1398" height="135" key="GridCell.Tab.0.bottom" timestamp="1607976865214">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom" timestamp="1608101655230">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608101655230" />
     <state width="1398" height="254" key="GridCell.Tab.0.bottom/0.25.1440.806@0.25.1440.806" timestamp="1607797080703" />
-    <state width="1398" height="391" key="GridCell.Tab.0.bottom/0.25.1440.808@0.25.1440.808" timestamp="1607972433508" />
-    <state width="1398" height="634" key="GridCell.Tab.0.bottom/0.25.1440.810@0.25.1440.810" timestamp="1607942470493" />
-    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1607976865214" />
-    <state width="1398" height="135" key="GridCell.Tab.0.center" timestamp="1607976865214">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.25.1440.808@0.25.1440.808" timestamp="1608012741909" />
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.25.1440.810@0.25.1440.810" timestamp="1608015205370" />
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1608020254130" />
+    <state width="1398" height="135" key="GridCell.Tab.0.center" timestamp="1608101655229">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="135" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608101655229" />
     <state width="1398" height="254" key="GridCell.Tab.0.center/0.25.1440.806@0.25.1440.806" timestamp="1607797080702" />
-    <state width="1398" height="391" key="GridCell.Tab.0.center/0.25.1440.808@0.25.1440.808" timestamp="1607972433508" />
-    <state width="1398" height="634" key="GridCell.Tab.0.center/0.25.1440.810@0.25.1440.810" timestamp="1607942470492" />
-    <state width="1398" height="135" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1607976865214" />
-    <state width="1398" height="135" key="GridCell.Tab.0.left" timestamp="1607976865213">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state width="1398" height="135" key="GridCell.Tab.0.center/0.25.1440.808@0.25.1440.808" timestamp="1608012741908" />
+    <state width="1398" height="135" key="GridCell.Tab.0.center/0.25.1440.810@0.25.1440.810" timestamp="1608015205370" />
+    <state width="1398" height="135" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1608020254129" />
+    <state width="1398" height="135" key="GridCell.Tab.0.left" timestamp="1608101655228">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="135" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608101655228" />
     <state width="1398" height="254" key="GridCell.Tab.0.left/0.25.1440.806@0.25.1440.806" timestamp="1607797080702" />
-    <state width="1398" height="391" key="GridCell.Tab.0.left/0.25.1440.808@0.25.1440.808" timestamp="1607972433507" />
-    <state width="1398" height="634" key="GridCell.Tab.0.left/0.25.1440.810@0.25.1440.810" timestamp="1607942470491" />
-    <state width="1398" height="135" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1607976865213" />
-    <state width="1398" height="135" key="GridCell.Tab.0.right" timestamp="1607976865214">
-      <screen x="0" y="25" width="1440" height="813" />
+    <state width="1398" height="135" key="GridCell.Tab.0.left/0.25.1440.808@0.25.1440.808" timestamp="1608012741907" />
+    <state width="1398" height="135" key="GridCell.Tab.0.left/0.25.1440.810@0.25.1440.810" timestamp="1608015205369" />
+    <state width="1398" height="135" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1608020254128" />
+    <state width="1398" height="135" key="GridCell.Tab.0.right" timestamp="1608101655230">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="135" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608101655230" />
     <state width="1398" height="254" key="GridCell.Tab.0.right/0.25.1440.806@0.25.1440.806" timestamp="1607797080703" />
-    <state width="1398" height="391" key="GridCell.Tab.0.right/0.25.1440.808@0.25.1440.808" timestamp="1607972433508" />
-    <state width="1398" height="634" key="GridCell.Tab.0.right/0.25.1440.810@0.25.1440.810" timestamp="1607942470493" />
-    <state width="1398" height="135" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1607976865214" />
+    <state width="1398" height="135" key="GridCell.Tab.0.right/0.25.1440.808@0.25.1440.808" timestamp="1608012741908" />
+    <state width="1398" height="135" key="GridCell.Tab.0.right/0.25.1440.810@0.25.1440.810" timestamp="1608015205370" />
+    <state width="1398" height="135" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1608020254129" />
     <state width="1398" height="254" key="GridCell.Tab.1.bottom" timestamp="1607797080704">
       <screen x="0" y="25" width="1440" height="806" />
     </state>
@@ -243,5 +275,9 @@
     </state>
     <state width="1398" height="254" key="GridCell.Tab.1.right/0.25.1440.806@0.25.1440.806" timestamp="1607797080704" />
     <state width="1398" height="254" key="GridCell.Tab.1.right/0.25.1440.808@0.25.1440.808" timestamp="1607773098197" />
+    <state x="229" y="63" key="SettingsEditor" timestamp="1608008624106">
+      <screen x="0" y="25" width="1440" height="808" />
+    </state>
+    <state x="229" y="63" key="SettingsEditor/0.25.1440.808@0.25.1440.808" timestamp="1608008624106" />
   </component>
 </project>

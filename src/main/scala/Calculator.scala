@@ -21,48 +21,84 @@ object Calculator {
   }
 
   def calculate(exp: String): String ={
-    val pattern = new Regex("[\\*\\/\\-\\+]")
-    val pattern2 = new Regex("\\d{1,}")
-    val stack = mutable.Stack.empty[String]
-    var varSign = ""
+    val pattern = new Regex("[\\/\\*\\-\\+\\(\\)]|[0-9]+")
 
-    var signs = pattern.findAllMatchIn(exp).mkString(" ").split(' ').toList
-    var nums = pattern2.findAllMatchIn(exp).mkString(" ").split(' ').toList
+    var items = pattern.findAllMatchIn(exp).mkString(" ").split(' ').toList
+    if(!check(items)) return "Wrong Expression"
+    val signs = mutable.Stack.empty[String]
+    val queue = mutable.Queue.empty[String]
+    val result = mutable.Stack.empty[String]
 
-    while(signs.nonEmpty) {
-      stack.push(nums.head)
-      nums = nums.tail
-
-      signs.head match {
-        case "*" =>
-          stack.push((stack.pop().toDouble * nums.head.toDouble).toString)
-          nums = nums.tail
-        case "/" =>
-          stack.push((stack.pop().toDouble / nums.head.toDouble).toString)
-          nums = nums.tail
-        case sign if sign == "-" || sign == "+" =>
-          if(varSign.isEmpty) varSign = signs.head
-          else {
-            varSign match {
-              case "+" => stack.push((stack.pop().toDouble + stack.pop().toDouble).toString)
-              case "-" => stack.push((stack.pop().toDouble*(-1) + stack.pop().toDouble).toString)
+    while(items.nonEmpty) {
+      items.head match {
+        case "(" => signs.push(items.head)
+        case sign if sign.equals("+") || sign.equals("-") =>
+          if(signs.nonEmpty) {
+            if (!signs.top.equals("(")) {
+              queue.enqueue(signs.pop())
             }
-            varSign = signs.head
           }
+          signs.push(items.head)
+        case sign if sign.equals("*") || sign.equals("/") =>
+          if(signs.nonEmpty) {
+            if (signs.top.equals("*") || signs.top.equals("/")) {
+              queue.enqueue(signs.pop())
+            }
+          }
+          signs.push(items.head)
+        case ")" =>
+          while (!signs.top.equals("(")) {
+            queue.enqueue(signs.pop())
+          }
+          signs.pop()
+        case _ => queue.enqueue(items.head)
       }
-      signs = signs.tail
-
-      if(signs.isEmpty) {
-        if(nums.nonEmpty) stack.push(nums.head)
-        varSign match {
-          case "+" => stack.push((stack.pop().toDouble + stack.pop().toDouble).toString)
-          case "-" => stack.push((stack.pop().toDouble*(-1) + stack.pop().toDouble).toString)
-          case "" =>
-        }
-      }
+      items = items.tail
     }
-    val response = stack.pop().toDouble
-    if(response/response.toInt != 1.0) response.toString
+    while(signs.nonEmpty) queue.enqueue(signs.pop())
+
+    while(queue.nonEmpty) {
+      queue.front match {
+        case "*" => result.push((result.pop().toDouble * result.pop().toDouble).toString)
+        case "/" =>
+          val r = result.pop
+          result.push((result.pop().toDouble / r.toDouble).toString)
+        case "+" => result.push((result.pop().toDouble + result.pop().toDouble).toString)
+        case "-" => result.push((result.pop().toDouble*(-1) + result.pop().toDouble).toString)
+        case _ => result.push(queue.front)
+      }
+      queue.dequeue()
+    }
+
+    val response = result.pop().toDouble
+    if (response / response.toInt != 1.0) response.toString
     else response.toInt.toString
+  }
+
+  def check(items: List[String]): Boolean ={
+    if (items.size == 1) return true
+    items.head match {
+      case sign if sign.equals("+") || sign.equals("-") || sign.equals("*") || sign.equals("/") =>
+        items.tail.head match {
+          case sign if sign.equals("+") || sign.equals("-") || sign.equals("*") || sign.equals("/") || sign.equals(")") =>
+            return false
+          case _ =>
+        }
+      case ")" => items.tail.head match {
+        case sign if !sign.equals("+") || !sign.equals("-") || !sign.equals("*") || !sign.equals("/") || sign.equals(")")
+          || sign.equals("(")=>
+          return false
+        case _ =>
+      }
+      case "(" => items.tail.head match {
+        case sign if sign.equals("+") || sign.equals("-") || sign.equals("*") || sign.equals("/") || sign.equals(")")
+          || sign.equals("(")=>
+          return false
+        case _ =>
+      }
+      case _ => if(items.tail.head.equals("(")) return false
+    }
+
+    check(items.tail)
   }
 }

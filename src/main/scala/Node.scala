@@ -44,7 +44,7 @@ object Node {
 
         case GetHistory(token, replyTo) =>
           historyService.control(token)
-          Thread.sleep(2000)
+          Thread.sleep(1000)
           replyTo ! historyService.done()
           Behaviors.same
 
